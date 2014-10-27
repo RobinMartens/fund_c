@@ -1,4 +1,4 @@
-#include"list.h"
+#include"list_test.h"
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -24,7 +24,6 @@ List *get_simple_list(error_t *err) {
 	}
 	return list;
 }
-
 
 error_t test_append_then_peek_returns_correct_value() {
 	error_t err;
@@ -58,8 +57,6 @@ error_t test_append_then_peek_returns_correct_value() {
 
 	return NULL;
 }
-
-//error_t test_append_
 
 error_t test_poll_removes_elements() {
 	error_t err;
@@ -137,36 +134,45 @@ error_t test_insert() {
 
 error_t test_length_after_append() {
 
+	return NULL;
 }
 
 error_t test_length_after_insert() {
 
+	return NULL;
 }
 
 error_t test_length_after_poll() {
 
+	return NULL;
 }
 
 error_t test_length_on_from_array() {
 
+	return NULL;
 }
 
 error_t test_from_array_on_valid_input {
 
+	return NULL;
 }
 
 error_t test_from_array_on_invalid_input() {
 
+	return NULL;
 }
 
 error_t test_to_array() {
 
+	return NULL;
 }
 
 error_t test_map_copy_copies_list() {
 
+	return NULL;
 }
 
 error_t test_map_mod_modifies_list() {
 
+	return NULL;
 }

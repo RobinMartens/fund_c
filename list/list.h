@@ -9,6 +9,7 @@ typedef error_t const char*;
 typedef struct Link {
 	void *val;
 	struct Link *next;
+	struct Link *prev;
 }
 
 typedef struct List {
