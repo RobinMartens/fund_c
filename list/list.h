@@ -21,7 +21,7 @@ List *list_new(error_t *err);
 
 // free all nodes and free list
 // does NOT free pointers stored in list
-List *list_delete(error_t *err);
+void list_delete(List *list, error_t *err);
 
 // appends element to the end of the list
 List *list_append(List *list, void *val, error_t *err);
